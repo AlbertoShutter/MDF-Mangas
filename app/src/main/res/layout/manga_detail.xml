@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/two_sided_border">
+
+            <TextView
+                android:text="Autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textoAutor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/rellenoAutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/textoAutor"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/two_sided_border">
+
+            <TextView
+                android:text="Genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textoGenero"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/rellenoGenero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/textoGenero"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/two_sided_border">
+
+            <TextView
+                android:text="Editorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textoEditorial"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/rellenoEditorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/textoEditorial"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/two_sided_border">
+
+            <TextView
+                android:text="Tomos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textoTomos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/rellenoTomos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/textoTomos"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/two_sided_border">
+
+            <TextView
+                android:text="Sipnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/textoSipnosis"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_blue_dark" />
+
+            <TextView
+                android:id="@+id/rellenoSipnosis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/textoSipnosis"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
